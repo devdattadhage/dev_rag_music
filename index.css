@@ -1,0 +1,91 @@
+body {
+  background-color: #e9edf1;
+  font-family: cursive;
+}
+
+header {
+  margin-left: 30px;
+}
+
+main {
+  margin-left: 80px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.playlistCard {
+  height: 500px;
+  width: 500px;
+  display: inline-block;
+  margin-right: 30px;
+  border: 1px solid #adb5bd;
+}
+
+.playlistSummary {
+  font-size: 24px;
+  padding: 14px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+  color: black;
+}
+
+embed {
+  height: 300px;
+  width: 500px;
+}
+
+td {
+  padding-right: 50px;
+}
+
+.singersList {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.singers {
+  height: 80px;
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+.singersSummary {
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.albumArtists {
+  font-size: 20px;
+}
+
+.montlyListener {
+  margin: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.artistImg {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+footer {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}

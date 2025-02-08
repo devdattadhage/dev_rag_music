@@ -2,59 +2,250 @@
 <html>
   <head>
     <title>Dev Rag Music</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
-  <body style="font-family: cursive">
+  <body>
     <header>
-      <h1 style="margin-left: 30px">🎵 Dev Rag Music</h1>
+      <h1>🎵 Dev Rag Music</h1>
     </header>
-    <main style="margin-left: 80px">
+    <hr />
+    <main>
       <section>
-        <div style="text-align: center">
-          <h2>Popular Albums</h2>
-        </div>
-        <div
-          style="
-            height: 500px;
-            width: 500px;
-            background-color: #fae0e4;
-            display: inline-block;
-          "
-        >
+        <h2>Popular Albums</h2>
+        <div class="playlistCard">
           <embed
             src="https://www.youtube.com/embed/videoseries?v=AQ-P5RR7r40&list=RDAQ-P5RR7r40&start_radio=1"
             type="text/html"
-            style="height: 300px; width: 500px"
           />
+          <div class="playlistSummary">
+            <a href="./marathiTopHits.html">Marathi Top Hits</a>
+            <p class="albumArtists">
+              Ajay-Atul, Shreya Ghoshal, Shankar Mahadevan, Ajay Gogavale,
+              Sayali Pankaj
+            </p>
+          </div>
         </div>
-        <div
-          style="
-            height: 500px;
-            width: 500px;
-            background-color: #fae0e4;
-            display: inline-block;
-            margin-left: 25px;
-          "
-        >
+        <div class="playlistCard">
           <embed
             src="https://www.youtube.com/embed/videoseries?v=kyjg5kX4pT0&list=RDkyjg5kX4pT0&start_radio=1"
             type="text/html"
-            style="height: 300px; width: 500px"
           />
+          <div class="playlistSummary">
+            <a href="./marathiTopHits.html">Bollywood Trending Hitlist</a>
+            <p class="albumArtists">
+              A R Rahman, Arijit Singh, Javed Ali, Sonu Nigam, Aditya Rikhari,
+              Anuv Jain
+            </p>
+          </div>
         </div>
-        <div
-          style="
-            height: 500px;
-            width: 500px;
-            background-color: #fae0e4;
-            display: inline-block;
-            margin-left: 25px;
-          "
-        >
+        <div class="playlistCard">
           <embed
           src="https://www.youtube.com/embed/videoseries?v=IpFX2vq8HKw&list=RDIpFX2vq8HKw&start_radio=1
-          type="text/html" style="height: 300px; width: 500px" />
+          type="text/html" />
+          <div class="playlistSummary">
+            <a href="./marathiTopHits.html">Global Upbeat Trending</a>
+            <p class="albumArtists">
+              Benson Boone, David Kushner, Zayn, The Chainsmokers, Yung Kai
+            </p>
+          </div>
         </div>
       </section>
+
+      <section class="singersList">
+        <h2>Popular Artists</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <div class="singers">
+                  <img
+                    class="artistImg"
+                    src="https://rukminim2.flixcart.com/image/850/1000/l0bbonk0/poster/6/u/g/small-arijit-singh-multicolour-photo-paper-print-poster-original-imagc4wvmuuf4fzz.jpeg?q=90&crop=false"
+                    alt=""
+                  />
+                  <div class="singersSummary">
+                    <a
+                      href="https://music.youtube.com/channel/UCDxKh1gFWeYsqePvgVzmPoQ"
+                      >Arijit Singh</a
+                    >
+                    <p class="montlyListener">43,443,395 monthly listeners</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="singers">
+                  <img
+                    class="artistImg"
+                    src="https://lh3.googleusercontent.com/8G8PaOn8LPFzq0eXesQIZjFS22pBtmAsHcvz6vMjNfSlxSq4stpsYEAnVcLONBB3-qhV4JoZKdgPOCutH7ponQxq=s900"
+                    alt=""
+                  />
+                  <div class="singersSummary">
+                    <a
+                      href="https://music.youtube.com/channel/UCsC4u-BJAd4OX1hJXtwXSOQ"
+                      >Sonu Nigam</a
+                    >
+                    <p class="montlyListener">22,390,220 monthly listeners</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="singers">
+                  <img
+                    class="artistImg"
+                    src="https://static.sociofyme.com/photo/104386734/104386734.jpg"
+                    alt=""
+                  />
+                  <div class="singersSummary">
+                    <a
+                      href="https://music.youtube.com/channel/UC84y82gFQuX0jeqRSrkdERQ"
+                      >Kishore Kumar</a
+                    >
+                    <p class="montlyListener">28,443,395 monthly listeners</p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="singers">
+                  <img
+                    class="artistImg"
+                    src="https://i.scdn.co/image/ab6761610000e5ebbc7e4fffd515b47ff1ebbc1f"
+                    alt=""
+                  />
+                  <div class="singersSummary">
+                    <a
+                      href="https://music.youtube.com/channel/UCGPCYz1FTl_dvFFnzQTQzjw"
+                      >Yo Yo Honey Singh</a
+                    >
+                    <p class="montlyListener">21,572,950 monthly listeners</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="singers">
+                  <img
+                    class="artistImg"
+                    src="https://images.filmibeat.com/img/popcorn/profile_photos/a-r-rahman-20230208223821-2362.jpg"
+                    alt=""
+                  />
+                  <div class="singersSummary">
+                    <a
+                      href="https://music.youtube.com/channel/UCtJe0RYzgPddQXKtWduxz_w"
+                      >A. R. Rahman</a
+                    >
+                    <p class="montlyListener">38,141,529 monthly listeners</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="singers">
+                  <img
+                    class="artistImg"
+                    src="https://lh3.googleusercontent.com/sjGMYJQ1J3FZEIBsMYUztMjjYOM4-NJ24CjmIHqxTWCxAM1YgjL-d_17u7_PRhTouOwwAjbu-2x5S6I=w544-h544-p-l90-rj"
+                    alt=""
+                  />
+                  <div class="singersSummary">
+                    <a
+                      href="https://music.youtube.com/channel/UCCTN01plFzn4npREHKT2_9Q"
+                      >Pritam</a
+                    >
+                    <p class="montlyListener">41,905,125 monthly listeners</p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="singers">
+                  <img
+                    class="artistImg"
+                    src="https://i.pinimg.com/474x/1a/49/44/1a4944ea9971408233a59f592e43bfe6.jpg"
+                    alt=""
+                  />
+                  <div class="singersSummary">
+                    <a
+                      href="https://music.youtube.com/channel/UC13ToEQgfmTe8_GW19LYtCg"
+                      >Udit Narayan</a
+                    >
+                    <p class="montlyListener">27,626,519 monthly listeners</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="singers">
+                  <img
+                    class="artistImg"
+                    src="https://www.tallengestore.com/cdn/shop/products/MohammadRafi-LegendaryIndianPlaybackSinger-Poster4_1efba7c8-819c-4776-b0c9-d4d7bdad21a4.jpg?v=1627651757"
+                    alt=""
+                  />
+                  <div class="singersSummary">
+                    <a
+                      href="https://music.youtube.com/channel/UCLpyDLYPCmQYxt_kkU1suhg"
+                      >Mohammed Rafi</a
+                    >
+                    <p class="montlyListener">8,001,062 monthly listeners</p>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="singers">
+                  <img
+                    class="artistImg"
+                    src="https://i2.cinestaan.com/image-bank/1500-1500/63001-64000/63217.jpg"
+                    alt=""
+                  />
+                  <div class="singersSummary">
+                    <a
+                      href="https://music.youtube.com/channel/UCbp5cZLtFE6y7XdhvJeT0Qw"
+                      >Asha Bhosle</a
+                    >
+                    <p class="montlyListener">11,324,533 monthly listeners</p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
+    <hr />
+    <footer>
+      <div class="footerTemplate">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Jobs</a></li>
+          <li><a href="">For the Record</a></li>
+        </ul>
+      </div>
+      <div class="footerTemplate">
+        <h3>Communities</h3>
+        <ul>
+          <li><a href="">For Artists</a></li>
+          <li><a href="">Developers</a></li>
+          <li><a href="">Advertising</a></li>
+          <li><a href="">Investors</a></li>
+          <li><a href="">Vendors</a></li>
+        </ul>
+      </div>
+      <div class="footerTemplate">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="">Support</a></li>
+          <li><a href="">Free Mobile App</a></li>
+        </ul>
+      </div>
+      <div class="footerTemplate">
+        <h3>Dev Rag Plans</h3>
+        <ul>
+          <li><a href="">Premium Individual</a></li>
+          <li><a href="">Premium Duo</a></li>
+          <li><a href="">Premium Family</a></li>
+          <li><a href="">Premium Student</a></li>
+          <li><a href="">Social Media</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
