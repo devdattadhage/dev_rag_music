@@ -25,6 +25,7 @@ h3 {
   display: inline-block;
   margin-right: 30px;
   border: 1px solid #adb5bd;
+  border-radius: 5px;
 }
 
 .playlistSummary {
@@ -41,6 +42,7 @@ a {
 embed {
   height: 300px;
   width: 500px;
+  border-radius: 5px;
 }
 
 td {
